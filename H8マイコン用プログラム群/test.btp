@@ -1,0 +1,99 @@
+[PROJECT]
+SOURCEFILE="test.c"
+MODIFY="2024/11/14 13:21:03"
+V_MAJOR="2"
+V_MINOR="5"
+V_RELEASE="1"
+V_BUILD="0"
+CURPOS=19
+[TARGET]
+NAME="H8/3048F (ExRAM, Bootloader)"
+SelExtCompile=0
+[GCC]
+InstallFolder="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\GCC\H8"
+Target="h8300-elf"
+OptimizeLevel=0
+TargetList.Count=0
+TargetList.0="h8300-elf"
+[AS]
+StartUpRoutine="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F\h8crt0.s"
+StartUpRoutineList.Count=0
+StartUpRoutineList.0="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F\h8crt0.s"
+[LD]
+MakeMapFile=1
+ScriptFile="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F\h8ram.x"
+ScriptFileList.Count=0
+ScriptFileList.0="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F\h8ram.x"
+AddLib.Count=2
+AddLib.0="add3048"
+AddLib.1="m"
+[DBG]
+RUNCommand=""
+GDBCommand=""
+RUNBootOption="-h"
+GDBBootOption=""
+BuildOption=""
+GDBInitFile="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F\gdb.ini"
+[Folder]
+IncludeFolder.Count=1
+IncludeFolder.0="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F"
+LibraryFolder.Count=1
+LibraryFolder.0="C:\Program Files (x86)\GCC Developer Lite\GCC Developer Lite\TARGET\3048F"
+[ETC]
+Option.Count=5
+Option.0="-mh"
+Option.1="-nostartfiles"
+Option.2="-fsigned-char"
+Option.3="-Wall"
+Option.4="-Wno-main -pipe"
+BinUtilOut=2
+FileSaveBeforGCC=1
+ObjCopyOption=""
+[FW]
+EnableBootFW=0
+NotBootDebug=1
+Silent=0
+ExtBootFile="($GDL)\STERM.exe"
+FWBootOpt="-DP ($PGENE)"
+ShutGDB=0
+[EXT_TOOL]
+FileSaveBeforCompile=1
+[EXT_TOOL0]
+Command=""
+Option=""
+Caption=""
+LinkExTool=0
+[EXT_TOOL1]
+Command=""
+Option=""
+Caption=""
+LinkExTool=0
+[EXT_TOOL2]
+Command=""
+Option=""
+Caption=""
+LinkExTool=0
+[EXT_Folder]
+SearchFolder.Count=0
+[EXT_DBG]
+GDBCommand=""
+GDBBootOption=""
+GDBInitFile=""
+MonitorFile=""
+[EXT_FW]
+Silent=0
+ExtBootFile=""
+FWBootOpt=""
+MonitorFile=""
+ShutGDB=0
+[MarkJump]
+Mark.0=-1
+Mark.1=-1
+Mark.2=-1
+Mark.3=-1
+Mark.4=-1
+Mark.5=-1
+Mark.6=-1
+Mark.7=-1
+Mark.8=-1
+Mark.9=-1
